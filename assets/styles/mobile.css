@@ -1,0 +1,274 @@
+
+/***********************************************************************************
+  
+Universal Content Containers
+  
+************************************************************************************/
+
+@media (max-width: 1300px) {
+    .content {
+        width: 1100px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .content {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .content {
+        width: 900px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .content {
+        width: 800px;
+    }
+}
+
+@media (max-width: 900px) {
+    .content {
+        width: 700px;
+    }
+}
+
+@media (max-width: 800px) {
+    .content {
+        width: 600px;
+    }
+}
+
+@media (max-width: 700px) {
+    .content {
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .content {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .content {
+        width: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    .content {
+        width: 260px;
+    }
+}
+
+/***********************************************************************************
+  
+Header
+  
+************************************************************************************/
+
+@media (max-width: 800px) {
+    #header ul li {
+        float: right;
+    }
+    
+    #header li a.contribute {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    #header h1 {
+        text-align: center;
+        
+        width: 100%;
+    }
+    
+    #header ul {
+        display: none;
+    }
+}
+
+/***********************************************************************************
+  
+Intro
+  
+************************************************************************************/
+
+@media (max-width: 400px) {
+    #intro {
+        padding: 62px 0 80px;
+    }
+    
+    #intro .content {
+        width: 80%;
+    }
+}
+
+/***********************************************************************************
+  
+Screenshots
+  
+************************************************************************************/
+
+@media (max-width: 1300px) {
+    #screenshots .content {
+        margin-left: -550px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #screenshots .content {
+        margin-left: -500px;
+    }
+}
+
+@media (max-width: 1100px) {
+    #screenshots {
+        height: 350px;
+    }
+    
+    #screenshots .content {
+        margin-left: -450px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #screenshots .content {
+        margin-left: -400px;
+    }
+}
+
+@media (max-width: 900px) {
+    #screenshots {
+        height: 300px;
+    }
+    
+    #screenshots .content {
+        margin-left: -350px;
+    }
+}
+
+@media (max-width: 800px) {
+    #screenshots .content {
+        margin-left: -300px;
+    }
+}
+
+@media (max-width: 700px) {
+    #screenshots .content {
+        margin-left: -250px;
+    }
+}
+
+@media (max-width: 600px) {
+    #screenshots {
+        height: 225px;
+    }
+    
+    #screenshots .content {
+        margin-left: -200px;
+    }
+    
+    #screenshots .content img.tablet {
+        display: none;
+    }
+    
+    #screenshots .content img.desktop {
+        width: 75%;
+        
+        left: 0;
+    }
+    
+    #screenshots .content img.mobile {
+        width: 30%;
+        
+        top: 75px;
+    }
+}
+
+@media (max-width: 500px) {
+    #screenshots .content {
+        margin-left: -150px;
+    }
+}
+
+@media (max-width: 400px) {
+    #screenshots {
+        height: 250px;
+    }
+    
+    #screenshots .content {
+        margin-left: -130px;
+    }
+    
+    #screenshots .content img.desktop {
+        width: 100%;
+    }
+    
+    #screenshots .content img.mobile {
+        display: none;
+    }
+}
+
+/***********************************************************************************
+  
+Features
+  
+************************************************************************************/
+
+@media (max-width: 1000px) {
+    #features .feature {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    #features .feature {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    #features {
+        padding: 80px 0 30px;
+    }
+}
+
+/***********************************************************************************
+  
+Footer
+  
+************************************************************************************/
+
+@media (max-width: 700px) {
+    #footer span {
+        display: none; 
+    }
+    
+    #footer ul {
+        text-align: center;
+        
+        width: 100%;
+        
+        float: left;
+    }
+    
+    #footer ul li {
+        float: none;
+        
+        display: inline-block;
+        
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    #footer {
+        display: none; 
+    }
+}

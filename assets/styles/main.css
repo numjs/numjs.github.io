@@ -1,0 +1,383 @@
+
+/***********************************************************************************
+  
+Page Setup
+  
+************************************************************************************/
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    
+    overflow: auto;
+}
+
+*, *::before, *::after {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+/***********************************************************************************
+  
+Typography Setup
+  
+************************************************************************************/
+
+@font-face {
+    font-family: gotham-book;
+    src: url('../fonts/gotham-book.ttf')
+}
+
+@font-face {
+    font-family: gotham-light;
+    src: url('../fonts/gotham-light.ttf')
+}
+
+@font-face {
+    font-family: gotham-bold;
+    src: url('../fonts/gotham-bold.ttf')
+}
+
+body {
+    font-family: 'gotham-light', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+
+p a,
+span a,
+strong {
+    font-family: 'gotham-bold', sans-serif;
+}
+
+/***********************************************************************************
+  
+Icons
+  
+************************************************************************************/
+
+@font-face { 
+    font-family: "ionicons"; 
+    src: url("../icons/ionicons.eot?v=1.4.1"); 
+    src: url("../icons/ionicons.eot?v=1.4.1#iefix") format("embedded-opentype"), 
+         url("../icons/ionicons.ttf?v=1.4.1") format("truetype"), 
+         url("../icons/ionicons.woff?v=1.4.1") format("woff"), 
+         url("../icons/ionicons.svg?v=1.4.1#Ionicons") format("svg"); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+.icon { 
+    display: inline-block; 
+    font-family: "ionicons"; 
+    speak: none; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    text-rendering: auto; 
+    line-height: 1; 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
+}
+
+.icon.github:before { content: "\f233"; }
+.icon.twitter:before { content: "\f243"; }
+.icon.facebook:before { content: "\f231"; }
+.icon.menu:before { content: "\f20e"; }
+.icon.close:before { content: "\f12a"; }
+.icon.responsive:before { content: "\f1f9"; }
+.icon.codebase:before { content: "\f271"; }
+.icon.design:before { content: "\f160"; }
+.icon.focused:before { content: "\f1a2"; }
+.icon.browsers:before { content: "\f1d4"; }
+.icon.seo:before { content: "\f1f7"; }
+.icon.customize:before { content: "\f17d"; }
+.icon.services:before { content: "\f15a"; }
+.icon.customization:before { content: "\f1e0"; }
+.icon.implementation:before { content: "\f184"; }
+.icon.hosting:before { content: "\f177"; }
+.icon.support:before { content: "\f19c"; }
+.icon.edit:before { content: "\f17d"; }
+.icon.newsletter:before { content: "\f12e"; }
+.icon.wordpress:before { content: "\f248"; }
+.icon.video:before { content: "\f1c7"; }
+
+/***********************************************************************************
+  
+Universal Content Containers
+  
+************************************************************************************/
+
+.row {
+    width: 100%;
+    
+    float: left;
+    
+    position: relative;
+}
+
+.content {
+    width: 1200px;
+    
+    margin: 0px auto;
+    
+    position: relative;
+}
+
+/***********************************************************************************
+  
+Buttons
+  
+************************************************************************************/
+
+.button {
+    border-radius: 3px;
+    
+    font-size: 14px;
+    text-align: center;
+    line-height: 52px;
+    text-transform: uppercase;
+    
+    height: 50px;
+    
+    padding: 0 30px;
+    
+    display: inline-block;
+}
+
+.button span {
+    font-family: 'gotham-bold', sans-serif;
+    text-transform: lowercase;
+}
+
+/***********************************************************************************
+  
+Header
+  
+************************************************************************************/
+
+#header {
+    border-bottom: 1px solid;
+    
+    height: 100px;
+}
+
+#header h1 {
+    font-family: 'gotham-bold', sans-serif;
+    font-size: 57px;
+    line-height: 106px;
+    letter-spacing: -2px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#header .logo {
+    border-bottom: none;
+    
+    height: 60px;
+    
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 10;
+    
+    display: none;
+}
+
+#header .logo img {
+    height: 60px;
+}
+
+#header ul {
+    font-size: 14px;
+    line-height: 102px;
+    
+    float: right;
+}
+
+#header ul li {
+    float: left;
+    
+    position: relative;
+    
+    margin-left: 40px;
+}
+
+#header ul li a.contribute {
+    text-transform: uppercase;
+}
+
+#header ul li a.contribute .icon {
+    font-size: 19px;
+    
+    position: absolute;
+    top: 40px;
+    left: -24px;
+}
+
+/***********************************************************************************
+  
+Intro
+  
+************************************************************************************/
+
+#intro {
+    padding: 82px 0 100px;
+}
+
+#intro .content {
+    text-align: center;
+    
+    width: 58%;
+}
+
+#intro h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    
+    margin-bottom: 22px;
+}
+
+#intro p {
+    margin-bottom: 33px;
+}
+
+/***********************************************************************************
+  
+Screenshots
+  
+************************************************************************************/
+
+#screenshots {
+    height: 500px;
+}
+
+#screenshots .content {
+    height: 100%;
+    
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 10;
+    
+    margin-left: -600px;
+    
+    overflow: hidden;
+}
+
+#screenshots .content img {
+    border-radius: 6px 6px 0 0;
+    
+    position: absolute;
+}
+
+#screenshots .content img.tablet {
+    width: 35%;
+    
+    top: 100px;
+    left: 0;
+    z-index: 20;
+}
+
+#screenshots .content img.desktop {
+    width: 65%;
+    
+    top: 0;
+    left: 20%;
+    z-index: 30;
+}
+
+#screenshots .content img.mobile {
+    width: 20%;
+    
+    top: 150px;
+    right: 0;
+    z-index: 40;
+}
+
+/***********************************************************************************
+  
+Features
+  
+************************************************************************************/
+
+#features {
+    padding: 100px 0;
+}
+
+#features .feature {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    
+    font-size: 14px;
+    
+    width: 33.333333333%;
+    
+    float: left;
+}
+
+#features .feature .copy {
+    padding: 40px 40px 63px;
+}
+
+#features .feature .icon {
+    font-size: 30px;
+    
+    margin-bottom: 12px;
+}
+
+#features .feature h3 {
+    font-size: 18px;
+    line-height: 1.4;
+        
+    margin-bottom: 12px;
+}
+
+/***********************************************************************************
+  
+Footer
+  
+************************************************************************************/
+
+#footer {
+    font-size: 14px;
+    line-height: 80px;
+    
+    height: 80px;
+}
+
+#footer span {
+    float: left; 
+}
+
+#footer ul {
+    float: right;
+}
+
+#footer ul li {
+    float: left;
+    
+    margin-left: 10px;
+}
+
+#footer ul li a:hover {
+    border-bottom: 1px solid;
+}
+
+#footer li a {
+    text-transform: uppercase;
+}
