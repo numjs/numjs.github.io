@@ -1,0 +1,143 @@
+
+/***********************************************************************************
+  
+Page Setup
+  
+************************************************************************************/
+
+html,
+body {
+    background-color: #252525;
+}
+
+/***********************************************************************************
+  
+Buttons
+  
+************************************************************************************/
+
+.button {
+    background-color: #ffffff;
+    
+    color: #202020;
+}
+
+.button:hover {
+    background-color: #e8e8e8;
+}
+
+/***********************************************************************************
+  
+Header
+  
+************************************************************************************/
+
+#header {
+    background-color: #2b2b2b;
+    
+    border-color: #353535;
+}
+
+#header h1 {
+    color: #ffffff;
+}
+
+#header ul li a.contribute {
+    color: #ffffff;
+}
+
+#header ul li a.contribute:hover,
+#header ul li a.contribute:hover .icon {
+    color: #e8e8e8;
+}
+
+/***********************************************************************************
+  
+Intro
+  
+************************************************************************************/
+
+#intro {
+    background-color: #2b2b2b;
+}
+
+#intro h2 {
+    color: #ffffff;
+}
+
+#intro p {
+    color: #c6c6c6;
+}
+
+/***********************************************************************************
+  
+Screenshots
+  
+************************************************************************************/
+
+#screenshots {
+    background-color: #2b2b2b;
+}
+
+/***********************************************************************************
+  
+Features
+  
+************************************************************************************/
+
+#features {
+    background-color: #252525;
+}
+
+#features .feature {
+    background-color: #2b2b2b;
+    
+    border-color: #252525;
+}
+
+#features .feature:hover {
+    background-color: #2e2e2e;
+}
+
+#features .feature .copy h3 {
+    color: #ffffff;
+}
+
+#features .feature .copy .icon,
+#features .feature .copy p {
+    color: #b9b9b9;
+}
+
+
+/***********************************************************************************
+  
+Footer
+  
+************************************************************************************/
+
+#footer {
+    background-color: #202020;
+}
+
+#footer span,
+#footer span a,
+#footer ul li a {
+    color: #585858;
+}
+
+#footer span a:hover,
+#footer ul li a:hover {
+    color: #cccccc;
+}
+
+#footer ul li.twitter a:hover {
+    border-color: #00b0ed;
+}
+
+#footer ul li.facebook a:hover {
+    border-color: #395695;
+}
+
+#footer ul li.email a:hover {
+    border-color: #d64938;
+}
